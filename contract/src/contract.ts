@@ -13,6 +13,6 @@ class HelloNear {
   set_greeting({ greeting }: { greeting: string }): void {
     // Record a log permanently to the blockchain!
     near.log(`Saving greeting ${greeting}`);
-    this.greeting = greeting;
+    this.greeting = greeting + " doll sy hi";
   }
 }
